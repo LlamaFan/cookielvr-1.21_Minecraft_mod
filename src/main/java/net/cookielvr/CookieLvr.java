@@ -1,5 +1,6 @@
 package net.cookielvr;
 
+import net.cookielvr.items.NewItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,5 +12,6 @@ public class CookieLvr implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		NewItems.registerNewItems();
 	}
 }
