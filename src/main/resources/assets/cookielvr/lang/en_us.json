@@ -1,5 +1,9 @@
 {
   "item.cookielvr.buffed_cookie": "Buffed Cookie",
-  "item.cookielvr.raw_cookie": "Raw Cookie",
-  "item.cookielvr.cookie_ingot": "Cookie Ingot"
+  "item.cookielvr.raw_cookie": "Raw Cookie Ore",
+  "item.cookielvr.cookie_ingot": "Cookie Ingot",
+
+  "block.cookielvr.cookie_ore": "Cookie Ore Block",
+
+  "itemgroup.cookielvr.cookie_lover_key": "Cookie Menu"
 }

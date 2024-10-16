@@ -1,5 +1,7 @@
 package net.cookielvr;
 
+import net.cookielvr.blocks.NewBlocks;
+import net.cookielvr.itemgroups.ItemGroups;
 import net.cookielvr.items.NewItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -12,6 +14,9 @@ public class CookieLvr implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ItemGroups.registerItemGroups();
+
 		NewItems.registerNewItems();
+		NewBlocks.registerNewBlocks();
 	}
 }

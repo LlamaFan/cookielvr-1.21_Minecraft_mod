@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "cookielvr:item/x"
+    "layer0": "cookielvr:item/raw_cookie"
   }
 }
