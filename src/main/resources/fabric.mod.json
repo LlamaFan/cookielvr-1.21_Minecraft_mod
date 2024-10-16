@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "cookielvr",
+	"version": "${version}",
+	"name": "CookieLvr",
+	"description": "This mod will be about cookies and everything else coming with that!",
+	"authors": [
+		"LlamaFan"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/cookielvr/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.cookielvr.CookieLvr"
+		],
+		"fabric-datagen": [
+			"net.cookielvr.CookieLvrDataGenerator"
+		],
+		"client": ["net.cookielvr.Client"]
+	},
+	"mixins": [
+		"cookielvr.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.7",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
