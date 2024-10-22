@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "blocks",
+  "ingredients": [
+    {
+      "item": "cookielvr:cookie_block"
+    }
+  ],
+  "result": {
+    "id": "cookielvr:cookie_ingot",
+    "count": 9
+  }
+}

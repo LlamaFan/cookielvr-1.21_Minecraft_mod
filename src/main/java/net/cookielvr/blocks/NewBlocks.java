@@ -23,6 +23,9 @@ public class NewBlocks {
             new ExperienceDroppingBlock(UniformIntProvider.create(5, 7),
                     AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.STONE)));
 
+    public static final Block COOKIE_BLOCK = registerBlock("cookie_block",
+            new Block(AbstractBlock.Settings.create().strength(5f).requiresTool().sounds(BlockSoundGroup.BASALT)));
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, Identifier.of(CookieLvr.MOD_ID, name), block);
@@ -37,6 +40,8 @@ public class NewBlocks {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.SEARCH).register(e -> {
             e.add(NewBlocks.COOKIE_ORE);
+            e.add(NewBlocks.COOKIE_DEEPSLATE_ORE);
+            e.add(NewBlocks.COOKIE_BLOCK);
         });
     }
 }

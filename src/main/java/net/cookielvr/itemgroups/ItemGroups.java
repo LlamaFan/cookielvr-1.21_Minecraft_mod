@@ -21,6 +21,8 @@ public class ItemGroups {
                 e.add(NewItems.RAW_COOKIE);
                 e.add(NewItems.BUFFED_COOKIE);
                 e.add(NewBlocks.COOKIE_ORE);
+                e.add(NewBlocks.COOKIE_DEEPSLATE_ORE);
+                e.add(NewBlocks.COOKIE_BLOCK);
             }).build());
 
     public static void registerItemGroups() {

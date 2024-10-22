@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "blocks",
+  "pattern": [
+    "000",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "cookielvr:cookie_ingot"
+    }
+  },
+  "result": {
+    "id": "cookielvr:cookie_block",
+    "count": 1
+  }
+}

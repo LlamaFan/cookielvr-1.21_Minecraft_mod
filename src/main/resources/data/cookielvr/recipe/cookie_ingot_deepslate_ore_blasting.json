@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:blasting",
+  "category": "blocks",
+  "group": "cookie_mod_group",
+  "ingredient": [
+    {
+      "item": "cookielvr:cookie_deepslate_ore"
+    }
+  ],
+  "result": {
+    "id": "cookielvr:cookie_ingot"
+  },
+  "experience": 5,
+  "cookingtime": 350
+}
