@@ -11,8 +11,6 @@ import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
-import java.security.cert.CertPath;
-
 public class ItemGroups {
     public static final ItemGroup COOKIE_MOD_GROUP =
         Registry.register(Registries.ITEM_GROUP, Identifier.of(CookieLvr.MOD_ID, "cookie_mod_group"),

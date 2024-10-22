@@ -3,7 +3,8 @@
   "item.cookielvr.raw_cookie": "Raw Cookie Ore",
   "item.cookielvr.cookie_ingot": "Cookie Ingot",
 
-  "block.cookielvr.cookie_ore": "Cookie Ore Block",
+  "block.cookielvr.cookie_ore": "Cookie Ore",
+  "block.cookielvr.cookie_deepslate_ore": "Cookie Deepslate Ore",
 
   "itemgroup.cookielvr.cookie_lover_key": "Cookie Menu"
 }

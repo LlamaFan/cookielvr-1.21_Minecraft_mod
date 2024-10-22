@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "group": "cookie_mod_group",
+  "ingredient": [
+    {
+      "item": "cookielvr:cookie_ore"
+    }
+  ],
+  "result": {
+    "id": "cookielvr:cookie_ingot"
+  },
+  "experience": 1,
+  "cookingtime": 500
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "group": "cookie_mod_group",
+  "pattern": [
+    "000",
+    "010",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "cookielvr:cookie_ingot"
+    },
+    "1": {
+      "item": "minecraft:cookie"
+    }
+  },
+  "result": {
+    "id": "cookielvr:buffed_cookie",
+    "count": 3
+  }
+}
